@@ -1,5 +1,5 @@
 
-# calib-using-voxel
+# Online Self-Calibration of 3D Measurement Sensors Using a Voxel-Based Network
 Implementation of the paper “Online Self-Calibration of 3D Measurement Sensors Using a Voxel-Based Network”.
 [paper link](https://www.mdpi.com/1424-8220/22/17/6447)
 
