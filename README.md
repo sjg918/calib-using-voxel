@@ -23,14 +23,14 @@ Replace all calib.txt in data folder with calib.txt downloaded from "Download od
 Download the oxford radar robotcar dataset. </br>
 Download left LiDAR and right LiDAR. </br>
 Download Bumblebee XB3 Visual Odometry. </br>
-We used 2019-01-10-12-32-52 for training and 2019-01-17-12-48-25 for testing. </br>
+I used 2019-01-10-12-32-52 for training and 2019-01-17-12-48-25 for testing. </br>
 
 Open the cfg files in the CFG folder and modify the following two paths. </br>
 cfg.odometry_home = '/home/jnu-ie/Dataset/odometry/' </br>
 cfg.proj_home = '/home/jun-ie/kew/calib-using-voxel/' </br>
 
 # Requirement
-python >= 3.9.7. We worked in an anaconda environment. </br>
+python >= 3.9.7. I worked in an anaconda environment. </br>
 pytorch >= 1.10.2 (https://pytorch.org/) </br>
 spconv >= 2.1.21 (https://github.com/traveller59/spconv) </br>
 opencv (pip install opencv-python) </br>
