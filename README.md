@@ -6,7 +6,7 @@ Implementation of the paper “Online Self-Calibration of 3D Measurement Sensors
 # Problem 
 There is a problem with equation (1) in the paper.</br>
 "Y = base*(v-c_v)/disp" is incorrect. . . .</br>
-"Y = f_u*base *(v-c_v)/(f_v *disp)"is right. . . .</br>
+"Y = f_u*base *(v-c_v)/(f_v *disp)"is correct. . . .</br>
 ![joatmang](https://github.com/sjg918/calib-using-voxel/blob/main/image.png?raw=true)</br>
 I'm sorry for the inconvenience. But the code in this repository is fine.</br>
 
