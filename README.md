@@ -3,6 +3,13 @@
 Implementation of the paper “Online Self-Calibration of 3D Measurement Sensors Using a Voxel-Based Network”.
 [paper link](https://www.mdpi.com/1424-8220/22/17/6447)
 
+# Problem 
+There is a problem with equation (1) in the paper.</br>
+"Y = base*(v-c_v)/disp" is incorrect. . . .</br>
+"Y = f_u*base *(v-c_v)/(f_v *disp)"is right. . . .</br>
+![joatmang](https://github.com/sjg918/calib-using-voxel/blob/main/image.png?raw=true)</br>
+I'm sorry for the inconvenience. But the code in this repository is fine.</br>
+
 # Weights
 [kitti-20](https://drive.google.com/file/d/1NLUlefJneNaEobW2UAOfEuaAeQy2QMDJ/view?usp=sharing)
 [kitti-10](https://drive.google.com/file/d/1wYBOvj-7mnxLn9sHM64SLcbbvo7yHmVI/view?usp=sharing)
